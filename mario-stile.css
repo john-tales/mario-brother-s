@@ -1,0 +1,56 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+body{
+   height:100vh;
+}
+ .Wrapping{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px;
+    height: 100vh;
+ }
+.box1{
+    width: 40%;
+}
+
+.logo-principal{
+    height: 200px;
+}
+p{
+ font-size: 20px;
+ color: white;
+ padding: 0px 150px 0px 3px;
+}
+
+button{
+    color: white;
+    background-color: #c51111;
+    border-radius: 3px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+.par{
+    height: 500px;
+
+}
+.box-video{
+    position: fixed;
+    top: 0;
+    z-index: -1;
+ }
+
+ video{
+    width: 100vw;
+
+ }
