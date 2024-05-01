@@ -20,6 +20,7 @@ body{
 
 .logo-principal{
     height: 200px;
+    margin-bottom: 20px;
 }
 p{
  font-size: 20px;
@@ -37,7 +38,8 @@ button{
     cursor: pointer;
     text-transform: uppercase;
     font-weight: bold;
-    margin-top: 20px;
+    margin-top: 40px;
+    margin-left: 60px;
 }
 
 .par{
