@@ -63,3 +63,10 @@ button{
     position: fixed;
     top: 0px
 }
+
+.link-zap img {
+    height: 60px;
+    position: fixed;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
