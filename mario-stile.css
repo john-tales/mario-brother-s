@@ -7,6 +7,30 @@ box-sizing: border-box;
 body{
    height:100vh;
 }
+.header{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 30px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.header img{
+    height:30px 
+}
+
+.header a{
+    color: white;
+
+}
+
+.header a:hover{
+    color: #c51111 ;
+    font-size: 26px;
+    transition: 1s ease-in-out;
+}
+
  .Wrapping{
     display: flex;
     align-items: center;
@@ -53,7 +77,10 @@ button{
  }
 
  video{
-    width: 100vw;
+    min-height: 100%;
+    min-width: 100%;
+    top: 0;
+    position:fixed;
 
  }
  .gradiente{
@@ -64,9 +91,48 @@ button{
     top: 0px
 }
 
-.link-zap img {
+.imgzap{
     height: 60px;
+    position:  relative;
+    margin-left: 25px;
+    margin-bottom: -246px;
+    
+}     
+ .formulario-fale-conosco{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
     position: fixed;
-    margin-right: 25px;
-    margin-bottom: 25px;
-}
+    top: 30%;
+    left: -300px;
+    padding: 20px;
+    border-radius: 5px;
+    gap: 20px;
+
+ }
+
+ input{
+    border-radius: 10px;
+    height: 40px;
+    border: 1px solid gray;
+    padding-left: 5px;
+    outline-color:#18d80f ;
+
+
+
+ }
+
+ textarea{
+    height: 80px;
+    border: 1px solid gray;
+    padding-left: 5px;
+    outline-color:#18d80f ;
+ }
+
+ .mascaraform{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(106deg, rgba(10,12,16,0.99) 15%, rgba(10,12,16,0.7) 50%, rgba(10,12,16,0.99) 85%);
+ }
