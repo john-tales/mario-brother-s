@@ -108,6 +108,7 @@ button{
     padding: 20px;
     border-radius: 5px;
     gap: 20px;
+    z-index: 1;
 
  }
 
@@ -130,6 +131,7 @@ button{
  }
 
  .mascaraform{
+    visibility: hidden;
     position: fixed;
     top: 0;
     width: 100vw;
