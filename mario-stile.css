@@ -109,7 +109,7 @@ button{
     border-radius: 5px;
     gap: 20px;
     z-index: 1;
-
+    transition: left 1s ease-in-out;
  }
 
  input{
@@ -136,5 +136,39 @@ button{
     top: 0;
     width: 100vw;
     height: 100vh;
+    transition: visibility 1s ease-in-out ;
     background: linear-gradient(106deg, rgba(10,12,16,0.99) 15%, rgba(10,12,16,0.7) 50%, rgba(10,12,16,0.99) 85%);
+ }
+
+ @media(max-width:1120px){
+
+    p{
+        display: none;
+    }
+    .Wrapping {
+         flex-direction: column;
+         padding: 10px;
+
+    }
+    .box1{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+    }
+    .par{
+        width: 80vw;
+        height: auto;
+    }
+    
+    button{
+        margin-left:25%;
+    }
+    .header a{
+        font-size: 18px;
+    }
+    .imgzap{
+        margin-bottom: -27px;
+    }
+
  }
