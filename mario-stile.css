@@ -22,6 +22,7 @@ body{
 
 .header a{
     color: white;
+    text-decoration: none;
 
 }
 
@@ -170,5 +171,15 @@ button{
     .imgzap{
         margin-bottom: -27px;
     }
+    .logo-principal{
+        margin-left: 10%;
+    }
 
+    /*
+    .formulario-fale-conosco{
+        left: -10%;
+    }
+    .formulario-fale-conosco button {
+        margin-left: 0%;
+    } */
  }
